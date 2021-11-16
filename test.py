@@ -1,4 +1,5 @@
-def add(a: int, b: int) -> int:
-	return a + b
+def add(aValue, bValue):
+    return aValue + bValue
+
 
 print(add(3, 4))
