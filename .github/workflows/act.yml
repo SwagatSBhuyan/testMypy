@@ -18,7 +18,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
     - name: Typechecking with MyPy
-      uses: python/mypy@master
+      uses: python/mypy@main
       run: |
         mypy .
       
